@@ -103,7 +103,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.iauditor"
+        applicationId "com.iauditor1"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
