@@ -3,13 +3,18 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
 
 // create a component
+
 class onescreen extends Component {
-    
+
+    static navigationOptions= {
+        tabBarLabel: 'One Screen'
+    }
+
     render() {
         return (
             <View style={styles.container}>
                 <Text>onescreen</Text>
-                <Image source={{uri: 'https://facebook.github.io/react-native/docs/assets/favicon.png'}} style={{height:24,width:24}} />
+                <Image source={{ uri: 'https://facebook.github.io/react-native/docs/assets/favicon.png' }} style={{ height: 24, width: 24 }} />
             </View>
         );
     }

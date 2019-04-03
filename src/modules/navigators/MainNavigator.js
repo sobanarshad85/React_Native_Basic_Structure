@@ -10,6 +10,16 @@ import React, { Component } from 'react';
 const checn = createBottomTabNavigator({
     onescreen: { screen: onescreen },
     threescreen: { screen: threescreen }
+},  {
+    tabBarOptions: {
+        showLabel: true,
+        showIcon: false,
+        activeTintColor: 'red',
+        tabStyle:{
+        justifyContent:'center'
+          
+        }
+    }
 })
 
 const CustomDrawerContentComponent = props => (
