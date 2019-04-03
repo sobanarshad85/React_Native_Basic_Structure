@@ -24,7 +24,7 @@ const checn = createBottomTabNavigator({
 
 const CustomDrawerContentComponent = props => (
 
-    <SafeAreaView style={{ flex: 1, flexDirection: 'column', borderWidth: 5, borderRadius: 3, height: '100%' }} >
+    <SafeAreaView style={{ flex: 1, flexDirection: 'column', borderWidth: 1, height: '100%' }} >
         <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'center',marginTop:5 }}>
             <Image source={{ uri: 'https://facebook.github.io/react-native/docs/assets/favicon.png' }} style={{ borderRadius: 75, height: 150, width: 150 }} />
         </View>
